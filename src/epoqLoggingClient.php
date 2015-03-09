@@ -2,7 +2,7 @@
 
 namespace \fullfatthings\phpEpoqApi\epoq;
 
-class EpoqService implements EpoqClientInterface
+class EpoqLoggingClient implements EpoqClientInterface
 {
     function __construct(\Psr\Log\LoggerInterface $logger) {
       $this->logger = $logger;
