@@ -1,6 +1,5 @@
 <?php
-
-namespace \fullfatthings\phpEpoqApi\epoq;
+namespace FullFatThings\phpEpoqApi;
 
 interface EpoqClientInterface
 {
