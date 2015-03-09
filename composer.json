@@ -1,0 +1,15 @@
+{
+    "name": "fullfatthings/php-epoq-api",
+    "description": "An library for communicating with epoq api",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Jeremy French",
+            "email": "jeremy@fullfatthings.com"
+        }
+    ],
+    "require": {
+      "psr/log": "~1.0",
+      "guzzlehttp/guzzle": "~4.0",
+    }
+}
