@@ -3,5 +3,5 @@ namespace FullFatThings\phpEpoqApi;
 
 interface EpoqClientInterface
 {
-  public function postSewins($csv_data);
+    public function postSewins($csv_data);
 }

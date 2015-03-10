@@ -1,12 +1,14 @@
 <?php
 namespace FullFatThings\phpEpoqApi;
 
-class epoqUserValidator {
-    static $numColumns = 26;
+class EpoqUserValidator
+{
+    static $NUMCOLUMNS = 26;
 
-    static public function validateUser($user_array) {
+    static public function validateUser($user_array)
+    {
 
-        if (sizeof($user_array) != self::numColumns) {
+        if (sizeof($user_array) != self::$NUMCOLUMNS) {
             return [false, 'Incorrect number of items in array'];
         }
 
