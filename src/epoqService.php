@@ -18,7 +18,7 @@ class EpoqService
             $line_number++;
             list($success, $message) = EpoqUserValidator::validateUser($user_row);
             if (!$success) {
-                throw new InvalidArgumentException('Error with user input on line ' . $line_number . ' ' . $message);
+                throw new \InvalidArgumentException('Error with user input on line ' . $line_number . ' ' . $message);
             }
             $csv_file .= implode(',', $user_row) . PHP_EOL;
         }
