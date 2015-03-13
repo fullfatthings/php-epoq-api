@@ -1,4 +1,7 @@
 <?php
+/**
+ * Stub for the epoqHTTP client. Not yet implemented
+ */
 namespace FullFatThings\phpEpoqApi;
 
 class EpoqHttpClient implements EpoqClientInterface
